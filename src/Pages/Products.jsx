@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Container, Form, Spinner } from "react-bootstrap";
 import Header from "../components/Header";
-import ProductGrid from "../components/ProductGrid";
+import ProductGrid from "../Components/ProductGrid";
 import { fetchFurniture } from "../data/products";
 
 export default function Products({ addToCart }) {
