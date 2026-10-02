@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Container, Row, Col, Spinner } from "react-bootstrap";
 import { FiChevronRight } from "react-icons/fi";
-import Hero from "../components/Hero";
-import ProductGrid from "../components/ProductGrid";
+import Hero from "../Components/Hero";
+import ProductGrid from "../Components/ProductGrid";
 import { fetchFurniture, categories, rooms, gallery } from "../data/products";
 
 export default function Home({ addToCart }) {
