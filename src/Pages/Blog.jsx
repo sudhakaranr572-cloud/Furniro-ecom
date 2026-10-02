@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Container, Row, Col, Form } from "react-bootstrap";
 import { FaUser, FaCalendarAlt, FaTag } from "react-icons/fa";
 import { FiSearch } from "react-icons/fi";
-import Header from "../components/Header";
+import Header from "../Components/Header";
 import { blogPosts, blogCategories } from "../data/products";
 
 const PER_PAGE = 3;

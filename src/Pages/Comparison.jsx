@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Container, Row, Col, Form, Spinner } from "react-bootstrap";
 import { FaStar } from "react-icons/fa";
-import Header from "../components/Header";
+import Header from "../Components/Header";
 import { fetchFurniture } from "../data/products";
 
 const rows = [

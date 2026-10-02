@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import { Container, Row, Col, Table } from "react-bootstrap";
 import { FaTrash } from "react-icons/fa";
-import Header from "../components/Header";
+import Header from "../Components/Header";
 
 export default function Cart({ cart, removeFromCart, updateQty }) {
   const navigate = useNavigate();

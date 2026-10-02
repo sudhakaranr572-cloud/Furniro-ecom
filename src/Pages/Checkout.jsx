@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Container, Row, Col, Form } from "react-bootstrap";
-import Header from "../components/Header";
+import Header from "../Components/Header";
 
 const initial = {
   firstName: "", lastName: "", company: "", country: "India", street: "",

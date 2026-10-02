@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Container, Row, Col, Form } from "react-bootstrap";
 import { FaMapMarkerAlt, FaPhoneAlt, FaClock } from "react-icons/fa";
-import Header from "../components/Header";
+import Header from "../Components/Header";
 
 const info = [
   { id: 1, icon: <FaMapMarkerAlt />, title: "Address", lines: ["236 5th SE Avenue, New York NY10000, United States"] },
