@@ -2,15 +2,15 @@ import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
-import Home from "./pages/Home";
-import Shop from "./pages/Shop";
-import Products from "./pages/Products";
-import ProductDetails from "./pages/ProductDetails";
-import Comparison from "./pages/Comparison";
-import Cart from "./pages/Cart";
-import Checkout from "./pages/Checkout";
-import Contact from "./pages/Contact";
-import Blog from "./pages/Blog";
+import Home from "./Pages/Home";
+import Shop from "./Pages/Shop";
+import Products from "./Pages/Products";
+import ProductDetails from "./Pages/ProductDetails";
+import Comparison from "./Pages/Comparison";
+import Cart from "./Pages/Cart";
+import Checkout from "./Pages/Checkout";
+import Contact from "./Pages/Contact";
+import Blog from "./Pages/Blog";
 
 export default function App() {
   const [cart, setCart] = useState([]);
