@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Container, Form, Spinner } from "react-bootstrap";
-import Header from "../components/Header";
+import Header from "../Components/Header";
 import ProductGrid from "../Components/ProductGrid";
 import { fetchFurniture } from "../data/products";
 
