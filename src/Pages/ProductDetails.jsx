@@ -4,7 +4,7 @@ import { Container, Row, Col, Spinner } from "react-bootstrap";
 import { FaStar, FaStarHalfAlt, FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { FiPlus } from "react-icons/fi";
-import ProductGrid from "../components/ProductGrid";
+import ProductGrid from "../Components/ProductGrid";
 import { fetchProductById, fetchFurniture } from "../data/products";
 
 const sizes = ["L", "XL", "XS"];
