@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Container, Row, Col, Form, Spinner } from "react-bootstrap";
 import { FiFilter, FiGrid, FiList } from "react-icons/fi";
 import Header from "../components/Header";
-import ProductGrid from "../components/ProductGrid";
+import ProductGrid from "../Components/ProductGrid";
 import { fetchFurniture } from "../data/products";
 
 export default function Shop({ addToCart }) {
